@@ -1,5 +1,6 @@
 FROM centos :latest
 MAINTAINER rohitbhatt76524@gmail.com
+RUN yun install tree -y
 RUN yum install -y httpd\
 zip\
 unzip
