@@ -1,7 +1,7 @@
 FROM centos:latest
 MAINTAINER rohitbhatt76524@gmail.com
 RUN yum install -y httpd
-#RUN yum install -y tree
+RUN yum install -y tree
 RUN yum install -y unzip
 #zip\
 #unzip
