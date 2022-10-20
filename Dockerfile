@@ -13,4 +13,4 @@ RUN unzip bakery.zip
 RUN cp -rvf bakery/* .
 #RUN rm -rvf_MACOSX markups-kindle kindle.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 8080
