@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7
 MAINTAINER rohitbhatt76524@gmail.com
 RUN yum install -y httpd
 RUN yum install -y tree
